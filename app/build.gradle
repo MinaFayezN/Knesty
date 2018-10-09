@@ -16,11 +16,11 @@ android {
     }
     buildTypes {
         debug {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -41,6 +41,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     //endregion
     //region Third Parties
-
+//    implementation 'com.airbnb.android:lottie:2.5.5'
+//    implementation 'com.andkulikov:transitionseverywhere:1.8.0'
+    implementation 'com.eftimoff:android-pathview:1.0.8@aar'
     //endregion
 }
