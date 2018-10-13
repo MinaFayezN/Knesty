@@ -18,7 +18,7 @@ class SplashActivity : AppCompatActivity() {
     private fun initializePathView() {
         val pathView = findViewById<PathView>(R.id.splash_logo_pathView)
         pathView.useNaturalColors()
-//        pathView.setFillAfter(true)
+        pathView.setFillAfter(true)
         pathView.pathAnimator
                 .delay(100)
                 .duration(2000)

@@ -42,7 +42,7 @@ dependencies {
     //endregion
     //region Third Parties
 //    implementation 'com.airbnb.android:lottie:2.5.5'
-//    implementation 'com.andkulikov:transitionseverywhere:1.8.0'
+    implementation 'com.andkulikov:transitionseverywhere:1.8.0'
     implementation 'com.eftimoff:android-pathview:1.0.8@aar'
     //endregion
 }
